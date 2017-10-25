@@ -1,0 +1,7 @@
+#!/bin/bash
+git add .
+echo "Commit Message:"
+#read commit
+commit='a'
+git commit -m "$commit"
+git push -u origin master

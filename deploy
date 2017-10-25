@@ -1,0 +1,4 @@
+#!/bin/bash
+#xvmlabs
+
+rsync -avze ssh ./ root@104.128.85.102:/home/s
